@@ -1,8 +1,4 @@
-﻿# docker file for azureiotedge/azureiotedge-runtime-base:1.2-linux-amd64
-# This underlying image is recommended to be the same as the ones for edgeAgent & edgeHub
-# See the discussion at https://github.com/Azure/iotedge/pull/5965/files#r779936202
-ARG base_tag=3.1-alpine
-FROM mcr.microsoft.com/dotnet/aspnet:${base_tag}
+﻿FROM alpine:3.14
 
 ARG num_procs=4
 
