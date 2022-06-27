@@ -19,7 +19,7 @@
             },
             "env": {
               "UpstreamProtocol": {
-                "value": "amqp"
+                "value": "mqtt"
               }
             }
           },
